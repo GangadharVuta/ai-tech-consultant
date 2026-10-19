@@ -276,5 +276,43 @@
     "expert_name": null,
     "expert_answer": null,
     "supporting_notes": null
+  },
+  "ESC-20261019-34F1CB": {
+    "id": "ESC-20261019-34F1CB",
+    "question": "How do I connect Stripe to accept credit card payments? Hi Support, We just created our law directory on Brilliant Directories. We need to start accepting payments for our premium attorney listings. Where do we go in the admin panel to hook up our Stripe account? Thanks, Sarah",
+    "retrieved_sources": [
+      {
+        "title": "How to Connect Stripe Payment Gateway",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001516-how-to-connect-stripe-payment-gateway",
+        "score": 0.53
+      }
+    ],
+    "confidence": 0.53,
+    "reason": "Top retrieval confidence (0.53) below threshold (0.62)",
+    "status": "pending",
+    "created_at": "2026-10-19T04:08:18.321560+00:00",
+    "resolved_at": null,
+    "expert_name": null,
+    "expert_answer": null,
+    "supporting_notes": null
+  },
+  "ESC-20261019-578A25": {
+    "id": "ESC-20261019-578A25",
+    "question": "Custom Brand CSS Styling (Navy Blue & Gold) Apply custom CSS styles to buttons, headers, navigation, and accents matching client brand guide (#0f2b5c primary navy blue).",
+    "retrieved_sources": [
+      {
+        "title": "Adding Custom CSS and Header Code to Your Site",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006230-adding-custom-css-and-header-code",
+        "score": 0.5
+      }
+    ],
+    "confidence": 0.5,
+    "reason": "Top retrieval confidence (0.50) below threshold (0.62)",
+    "status": "pending",
+    "created_at": "2026-10-19T04:08:55.998626+00:00",
+    "resolved_at": null,
+    "expert_name": null,
+    "expert_answer": null,
+    "supporting_notes": null
   }
 }
