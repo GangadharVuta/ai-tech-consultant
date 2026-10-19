@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/server.ts",
+    "start:prod": "node dist/server.js",
     "test": "ts-node src/evaluation/run_evals.ts",
     "lint": "tsc --noEmit"
   },

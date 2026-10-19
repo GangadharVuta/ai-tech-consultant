@@ -1,6 +1,10 @@
-const TASK1_API = "http://127.0.0.1:8001";
-const TASK2_API = "http://127.0.0.1:8002";
-const TASK3_API = "http://127.0.0.1:8003";
+// API Resolution: Automatically uses direct localhost ports when running start_all.py locally on port 8000,
+// and routes through production reverse proxy (/api/task1, /api/task2, /api/task3) on live servers.
+const isLocalCustomPorts = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") && window.location.port === "8000";
+
+const TASK1_API = window.ENV_TASK1_API || (isLocalCustomPorts ? "http://127.0.0.1:8001" : `${window.location.origin}/api/task1`);
+const TASK2_API = window.ENV_TASK2_API || (isLocalCustomPorts ? "http://127.0.0.1:8002" : `${window.location.origin}/api/task2`);
+const TASK3_API = window.ENV_TASK3_API || (isLocalCustomPorts ? "http://127.0.0.1:8003" : `${window.location.origin}/api/task3`);
 
 // State
 let allEmails = [];

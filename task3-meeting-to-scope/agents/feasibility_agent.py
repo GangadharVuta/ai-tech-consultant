@@ -1,6 +1,7 @@
 import logging
 import urllib.request
 import json
+import os
 from typing import Dict, List, Optional
 
 logger = logging.getLogger(__name__)
@@ -12,8 +13,8 @@ class ProductFeasibilityAgent:
     prior to proposing expensive custom development.
     """
 
-    def __init__(self, task1_api_url: str = "http://127.0.0.1:8001"):
-        self.task1_api_url = task1_api_url.rstrip("/")
+    def __init__(self, task1_api_url: Optional[str] = None):
+        self.task1_api_url = (task1_api_url or os.getenv("TASK1_API_URL", "http://127.0.0.1:8001")).rstrip("/")
 
     def check_feasibility(self, requirement: Dict) -> Dict:
         req_id = requirement["req_id"]

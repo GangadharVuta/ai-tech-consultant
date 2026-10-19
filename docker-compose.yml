@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ai-tech-consultant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-tech-consultant-app
+    ports:
+      - "8000:7860"
+    environment:
+      - PORT=7860
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    restart: unless-stopped
