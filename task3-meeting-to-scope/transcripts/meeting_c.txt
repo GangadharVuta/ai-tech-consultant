@@ -1,0 +1,29 @@
+[Meeting Date: October 14, 2026]
+[Attendees: David Miller (Founder, LocalTrades.com), Alex Mercer (Senior AI Tech Consultant)]
+[Topic: Follow-Up Revisions, Urgent Timeline Change, and Scope Adjustments]
+
+Alex: Hi David, good to see you again. Thanks for calling this follow-up session. I understand you had a board review and want to make some adjustments to the initial scope we discussed on Monday?
+
+David: Thanks Alex. Yes, the board met yesterday and we have a few important changes and updates to our launch strategy.
+
+Alex: Great, let's go through each item one by one so I can update the baseline scope.
+
+David: First, on the timeline—our marketing partner secured a major sponsorship feature at the Texas Home Expo. Instead of our original 3-week delivery, we need the entire site live and tested in 10 business days. Can your team expedite the schedule?
+
+Alex: 10 business days is a compressed rush schedule, but feasible if we prioritize built-in platform settings and keep custom dev focused. We will flag the rush timeline and adjust milestone delivery dates accordingly.
+
+David: Second change: we want to DROP the SMS notifications for lead routing. We looked at Twilio SMS pricing, registration requirements, and carrier fees, and decided it's too much overhead for launch. Let's keep lead alerts strictly to email notifications for now to save costs.
+
+Alex: Understood. We will remove the SMS alert integration from the deliverables, which will reduce task hours and third-party dependencies.
+
+David: Third item—we need a new requirement: an 'Emergency 24/7 Service' filter. Homeowners who have a burst pipe at 2:00 AM need to quickly filter for contractors who offer 24/7 on-call emergency dispatch. We need an 'Emergency Service Available' checkbox in the member profile and a corresponding filter checkbox in the search sidebar.
+
+Alex: Excellent addition. We will add a custom profile field for emergency availability and configure the sidebar search widget to include the 24/7 service filter.
+
+David: Great. And one last thing—one of our angel investors insisted that we need a native iOS app and Android app on the Apple App Store and Google Play Store by next month with push notifications. Can you just roll the mobile apps into this same proposal?
+
+Alex: David, I have to be completely transparent with you: building, certifying, and publishing native Swift iOS and Kotlin Android mobile applications is a substantial separate engineering initiative. Brilliant Directories provides a fully responsive mobile web experience (PWA) out of the box, which works great on smartphones. However, building native App Store applications falls outside the agreed web platform scope and requires separate native development. I will flag the native mobile apps as an Explicit Out-of-Scope item in our proposal and prepare an optional separate quotation for Phase 2.
+
+David: That makes total sense, Alex. I appreciate you being upfront and protecting our launch timeline rather than just saying yes and ballooning the budget. Let's stick with the web responsive platform for now and see the revised scope and proposal.
+
+Alex: Perfect. I will generate the revised Scope of Work showing what was added, modified, removed, and flagged out of scope, along with updated hour estimates. Talk soon!

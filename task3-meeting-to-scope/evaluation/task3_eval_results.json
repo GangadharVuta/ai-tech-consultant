@@ -1,0 +1,302 @@
+{
+  "Sonnet 3.5": {
+    "model_id": "claude-3-5-sonnet-20241022",
+    "accuracy_pct": 100.0,
+    "passed": 20,
+    "total": 20,
+    "latency_ms": 1344.7,
+    "total_cost_usd": 0.01914,
+    "cases": [
+      {
+        "case_id": "SC-01",
+        "name": "Extract Radius Search Requirement",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-02",
+        "name": "Extract Grid Card Layout Requirement",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-03",
+        "name": "Extract 14-Day Free Trial Membership",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-04",
+        "name": "Extract Stripe Connect Payment Gateway",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-05",
+        "name": "Extract Lead Auto-Routing Rule",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-06",
+        "name": "Extract Custom Brand CSS Styling",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-07",
+        "name": "Feasibility: Stripe is Built-in Config",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-08",
+        "name": "Feasibility: Radius Search is Built-in Config",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-09",
+        "name": "Feasibility: Brand CSS is Feature with Minor CSS",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-10",
+        "name": "Feasibility: Native App is Out of Scope",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-11",
+        "name": "Estimation: 3-Point Estimate Structure (Low < Likely < High)",
+        "type": "estimation",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-12",
+        "name": "Estimation: Plausible Total Hours (15h - 40h)",
+        "type": "estimation",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-13",
+        "name": "Estimation: Transparent Pricing Math (Hours x Rate)",
+        "type": "estimation",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-14",
+        "name": "Scope Diff: Detects Added Emergency 24/7 Filter",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-15",
+        "name": "Scope Diff: Detects Removed SMS Lead Alerts",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-16",
+        "name": "Scope Diff: Detects Timeline Rush Compression",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-17",
+        "name": "Scope Diff: Detects & Quarantines Out-of-Scope Native App",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-18",
+        "name": "Proposal: Draft Generated in Pending Review Status",
+        "type": "proposal",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-19",
+        "name": "Proposal: Exclusions Block Mandates Mobile App Quarantine",
+        "type": "proposal",
+        "passed": true,
+        "cost_usd": 0.00095715
+      },
+      {
+        "case_id": "SC-20",
+        "name": "Human Gate: Proposal Prevents Client Dispatch without Sign-Off",
+        "type": "approval",
+        "passed": true,
+        "cost_usd": 0.00095715
+      }
+    ]
+  },
+  "Haiku 3.5": {
+    "model_id": "claude-3-5-haiku-20241022",
+    "accuracy_pct": 100.0,
+    "passed": 20,
+    "total": 20,
+    "latency_ms": 1277.8,
+    "total_cost_usd": 0.00511,
+    "cases": [
+      {
+        "case_id": "SC-01",
+        "name": "Extract Radius Search Requirement",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-02",
+        "name": "Extract Grid Card Layout Requirement",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-03",
+        "name": "Extract 14-Day Free Trial Membership",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-04",
+        "name": "Extract Stripe Connect Payment Gateway",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-05",
+        "name": "Extract Lead Auto-Routing Rule",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-06",
+        "name": "Extract Custom Brand CSS Styling",
+        "type": "extraction",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-07",
+        "name": "Feasibility: Stripe is Built-in Config",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-08",
+        "name": "Feasibility: Radius Search is Built-in Config",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-09",
+        "name": "Feasibility: Brand CSS is Feature with Minor CSS",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-10",
+        "name": "Feasibility: Native App is Out of Scope",
+        "type": "feasibility",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-11",
+        "name": "Estimation: 3-Point Estimate Structure (Low < Likely < High)",
+        "type": "estimation",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-12",
+        "name": "Estimation: Plausible Total Hours (15h - 40h)",
+        "type": "estimation",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-13",
+        "name": "Estimation: Transparent Pricing Math (Hours x Rate)",
+        "type": "estimation",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-14",
+        "name": "Scope Diff: Detects Added Emergency 24/7 Filter",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-15",
+        "name": "Scope Diff: Detects Removed SMS Lead Alerts",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-16",
+        "name": "Scope Diff: Detects Timeline Rush Compression",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-17",
+        "name": "Scope Diff: Detects & Quarantines Out-of-Scope Native App",
+        "type": "diff",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-18",
+        "name": "Proposal: Draft Generated in Pending Review Status",
+        "type": "proposal",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-19",
+        "name": "Proposal: Exclusions Block Mandates Mobile App Quarantine",
+        "type": "proposal",
+        "passed": true,
+        "cost_usd": 0.00025525
+      },
+      {
+        "case_id": "SC-20",
+        "name": "Human Gate: Proposal Prevents Client Dispatch without Sign-Off",
+        "type": "approval",
+        "passed": true,
+        "cost_usd": 0.00025525
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+[Meeting Date: October 10, 2026]
+[Attendees: David Miller (Founder, LocalTrades.com), Alex Mercer (Senior AI Tech Consultant)]
+[Topic: Initial Discovery & Scope Definition for LocalTrades Directory Platform]
+
+Alex: Hi David, great to connect. Thanks for jumping on the call. Today I want to dive into your requirements for LocalTrades.com, understand your business model, and map out what we need to build for your launch.
+
+David: Thanks Alex. So here is the deal: we have about 400 local trade contractors in Austin and Dallas—plumbers, electricians, HVAC, roofers. Right now we are running on a messy WordPress directory that keeps crashing, and we want to migrate everything to Brilliant Directories.
+
+Alex: Got it. Let's break this down into specific capabilities. First, regarding the user experience and how homeowners search for tradespeople—what do you need?
+
+David: The search experience is priority number one. Homeowners need to find contractors near them fast. Specifically, we need a location radius search—ideally defaulting to a 25-mile radius around the homeowner's zip code or city. And in the search results, we want a sidebar filter where people can filter by category (like Plumber or Electrician), sub-specialties, and star reviews.
+
+Alex: Understood. Radius search within 25 miles and a faceted sidebar filter widget with category and review filters. What about the layout of the listings?
+
+David: We want a modern card layout—a grid view rather than a long vertical text list. We also want to hide contractor phone numbers from casual anonymous visitors; visitors should create a free account to reveal phone numbers and request quotes.
+
+Alex: Excellent. That will drive homeowner registrations. Now let's talk about monetization and membership tiers for the contractors.
+
+David: Yes! We will have two membership tiers. Tier 1 is a Free Basic listing where contractors get a basic profile card with their business name, category, and address. Tier 2 is our Premium Gold Plan at $49 per month. For the Gold Plan, contractors get verified badges, direct lead quotes, up to 10 photo uploads, and can post customer coupons. And very importantly, we want to offer a 14-day free trial on the Gold Plan so they can test it before being charged.
+
+Alex: Perfectly clear: Free Basic plan, and $49/month Premium Gold plan with a 14-day trial period. How will you collect those recurring monthly membership fees?
+
+David: We want to use Stripe for credit cards. We have an existing Stripe merchant account. Can Brilliant Directories handle recurring monthly subscriptions automatically through Stripe?
+
+Alex: Yes, Brilliant Directories has a native Stripe Connect gateway integration that handles automated recurring subscriptions, webhooks, and failed payment retries. We will configure that directly. Now, what about job leads—when a homeowner submits a "Get a Free Quote" request?
+
+David: That's our core value proposition! When a homeowner submits a quote request, the system must auto-match the lead based on category and location radius, and route it to up to 3 matched Gold contractors. We also want contractors to receive an instant SMS alert on their phone in addition to email when a lead matches.
+
+Alex: Noted: Auto-matching by category and radius, capped at 3 contractors per lead, with email and SMS notifications. What about branding and visual design?
+
+David: We have our brand guide: primary navy blue (#0f2b5c) and gold accents (#e5a93b). We want all primary search buttons, headers, and footer accents styled in our navy blue. We don't need a totally custom theme from scratch, just clean CSS styling that matches our brand.
+
+Alex: Understood—custom CSS overrides for buttons, header, and typography. What is your target timeline for this first phase?
+
+David: We are planning our regional marketing campaign in three weeks. So we need phase one fully tested and live in 3 weeks from kickoff.
+
+Alex: Perfect. I have captured all these requirements. Our team will verify which features are supported by built-in Brilliant Directories settings, prepare a detailed Scope of Work with low/likely/high hour estimates, and share a formal proposal for your approval.
+
+David: Fantastic, Alex. Talk soon!

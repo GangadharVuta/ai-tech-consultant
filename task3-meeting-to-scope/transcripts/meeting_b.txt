@@ -1,0 +1,29 @@
+[Meeting Date: October 12, 2026]
+[Attendees: Sarah Jenkins (E-Commerce Operations Director, BoutiqueFinder.com), Alex Mercer (Senior AI Tech Consultant)]
+[Topic: E-Commerce Architecture, Multi-Currency, and Automated Invoice Receipts]
+
+Alex: Hello Sarah, thanks for meeting today. Let's discuss BoutiqueFinder.com's checkout and payment workflow requirements.
+
+Sarah: Thanks Alex. BoutiqueFinder connects independent fashion boutiques across North America and Europe. We are setting up our vendor directory and need a seamless payment and invoicing setup.
+
+Alex: Understood. What are the key transactional capabilities you need for your vendor onboarding?
+
+Sarah: First, we need multi-currency capability. We have boutiques in the US billed in USD ($), but we also have boutiques in the UK billed in GBP (£) and in France billed in EUR (€). Can Stripe handle multiple currency charges for different membership tiers?
+
+Alex: Yes, in Stripe Connect, products and prices can be denominated in specific currencies per membership plan. We will configure dedicated currency plans for USD, GBP, and EUR. What about invoicing and automated receipts?
+
+Sarah: Every time a vendor's monthly or annual subscription renews, they need an automated branded PDF invoice sent to their billing email, complete with their company VAT number and our company tax identification.
+
+Alex: Brilliant Directories has customizable system email templates with dynamic merge tags like %invoice_total%, %invoice_number%, and %site_name%. We can customize the 'invoice-payment-receipt' template and include your company tax identifiers.
+
+Sarah: Excellent. Third requirement: our accounting team uses QuickBooks Online and HubSpot CRM. Whenever a vendor signs up or a payment is captured, we need a webhook event fired to our Zapier middleware so QuickBooks automatically generates the sales receipt.
+
+Alex: That is supported natively via Developer Hub > API Services > Webhook Endpoints. We can register webhooks for 'Payment Completed' and 'Member Signup' events that transmit JSON payloads to your Zapier hook.
+
+Sarah: What about refunds if a boutique cancels within our 14-day guarantee?
+
+Alex: Administrators can issue full or partial refunds directly in Finance > Transaction History with one click, which automatically instructs Stripe to credit their card and updates the invoice record.
+
+Sarah: Perfect. We want this implemented within 2 weeks. Please send over the technical breakdown and developer estimates.
+
+Alex: Will do, Sarah. I will prepare the formal scope and estimate table today.
