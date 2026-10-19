@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tech Consultant | Unified System Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <div class="logo-badge">⚡ AI Tech Consultant</div>
+      <span class="sub-title">Enterprise Knowledge, Autonomous Inbox & Meeting Scoping Suite</span>
+    </div>
+    <div class="service-badges">
+      <div class="badge" id="badge-task1"><span class="indicator"></span> KB Brain (8001)</div>
+      <div class="badge" id="badge-task2"><span class="indicator"></span> Inbox Agent (8002)</div>
+      <div class="badge" id="badge-task3"><span class="indicator"></span> Scope Agent (8003)</div>
+    </div>
+  </header>
+
+  <nav class="nav-tabs">
+    <button class="tab-btn active" data-tab="tab-task1">🧠 Task 1: Knowledge Brain</button>
+    <button class="tab-btn" data-tab="tab-task2">📥 Task 2: Inbox Agent</button>
+    <button class="tab-btn" data-tab="tab-task3">📋 Task 3: Meeting to Scope</button>
+  </nav>
+
+  <main class="main-content">
+    <!-- ==================== TAB 1: KNOWLEDGE BRAIN ==================== -->
+    <section id="tab-task1" class="tab-pane active">
+      <div class="pane-grid-2">
+        <div class="card">
+          <div class="card-header">
+            <h3>Ask the Knowledge Brain</h3>
+            <span class="badge-tag">Grounded RAG</span>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="kb-query">Customer or Consultant Question:</label>
+              <textarea id="kb-query" rows="3" placeholder="e.g. How do I connect Stripe to accept credit card payments on Brilliant Directories?"></textarea>
+            </div>
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label for="kb-model">Model Router:</label>
+                <select id="kb-model">
+                  <option value="claude-3-5-sonnet-20241022">Claude 3.5 Sonnet (Default)</option>
+                  <option value="claude-3-5-haiku-20241022">Claude 3.5 Haiku (Fast & Low Cost)</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" id="btn-kb-ask" style="margin-top: 24px;">Search & Answer</button>
+            </div>
+
+            <div class="sample-queries">
+              <span class="label">Quick Samples:</span>
+              <button class="btn-chip" data-query="How do I connect Stripe to accept payments?">Stripe Setup</button>
+              <button class="btn-chip" data-query="Where do I configure sidebar search filters for member listings?">Search Filters</button>
+              <button class="btn-chip" data-query="How can an administrator issue a refund to a member?">Issue Refund</button>
+              <button class="btn-chip" data-query="How do I deploy a Kubernetes pod to run an autonomous trading bot?">Out-of-Domain (Escalate)</button>
+            </div>
+
+            <div id="kb-result-box" class="result-box hidden">
+              <div class="result-header">
+                <span id="kb-status-badge" class="badge-success">Answered</span>
+                <span id="kb-metrics" class="metrics-text">Confidence: 98% | Latency: 2.1ms</span>
+              </div>
+              <div id="kb-answer-text" class="markdown-rendered"></div>
+              
+              <div id="kb-sources-container" class="sources-list hidden">
+                <h4>Verified Documentation Sources:</h4>
+                <ul id="kb-sources-ul"></ul>
+              </div>
+
+              <div id="kb-images-container" class="images-list hidden">
+                <h4>Associated Documentation Screenshots:</h4>
+                <div id="kb-images-div" class="images-preview-row"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Human Expert Escalation Queue</h3>
+            <span class="badge-tag alert">Human-in-the-Loop</span>
+          </div>
+          <div class="card-body">
+            <p class="description-p">When customer inquiries fall below confidence thresholds, tickets are quarantined here for verified expert resolution, then fed back into the Knowledge Brain.</p>
+            <div class="escalations-toolbar">
+              <button class="btn btn-secondary btn-sm" id="btn-refresh-escalations">Refresh Queue</button>
+              <button class="btn btn-secondary btn-sm" id="btn-sync-sitemap">Daily Sitemap Sync</button>
+            </div>
+            <div id="escalations-list" class="escalations-container">
+              <div class="empty-state">Loading escalations queue...</div>
+            </div>
+
+            <div id="expert-modal" class="expert-box hidden">
+              <h4>Resolve Ticket: <span id="modal-ticket-id">ESC-001</span></h4>
+              <p><strong>Question:</strong> <span id="modal-ticket-q"></span></p>
+              <div class="form-group">
+                <label>Expert Consultant Name:</label>
+                <input type="text" id="expert-name" value="Lead Solutions Architect" />
+              </div>
+              <div class="form-group">
+                <label>Verified Resolution (will be indexed into memory):</label>
+                <textarea id="expert-solution" rows="3" placeholder="Provide verified steps and configuration rules..."></textarea>
+              </div>
+              <button class="btn btn-success" id="btn-submit-resolution">Approve & Index into Memory</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 2: INBOX AGENT ==================== -->
+    <section id="tab-task2" class="tab-pane">
+      <div class="pane-grid-2">
+        <div class="card">
+          <div class="card-header">
+            <h3>Incoming Customer Inbox (50 Test Bench)</h3>
+            <span class="badge-tag">TypeScript Agent</span>
+          </div>
+          <div class="card-body">
+            <div class="filter-bar">
+              <label>Filter Category:</label>
+              <select id="inbox-filter-category">
+                <option value="">All Categories (50 Emails)</option>
+                <option value="how_to">How-To (12)</option>
+                <option value="troubleshooting">Troubleshooting (10)</option>
+                <option value="project_request">Project Requests (6)</option>
+                <option value="refund_cancellation">Refunds / Cancellations (6)</option>
+                <option value="complaint">Complaints (6)</option>
+                <option value="quote_request">Quote Requests (5)</option>
+                <option value="follow_up">Follow-ups (5)</option>
+              </select>
+            </div>
+
+            <div id="emails-list-container" class="emails-scroll-list">
+              <div class="empty-state">Loading customer emails...</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Smart Draft & Review Desk</h3>
+            <span id="draft-autonomy-badge" class="badge-tag">Human Review Required</span>
+          </div>
+          <div class="card-body">
+            <div id="draft-workbench">
+              <div class="email-details-banner">
+                <div class="email-header-meta">
+                  <div><strong>From:</strong> <span id="draft-from">Select an email from the left</span></div>
+                  <div><strong>Subject:</strong> <span id="draft-subject">-</span></div>
+                </div>
+                <div class="email-body-preview" id="draft-original-body">Please select an email to inspect its request and trigger the AI Inbox Agent.</div>
+              </div>
+
+              <div class="draft-action-bar">
+                <button class="btn btn-primary" id="btn-generate-draft" disabled>Generate Grounded Draft</button>
+                <div class="streak-mini-badge" id="mini-streak-display">Streak: 0 / 20</div>
+              </div>
+
+              <div id="draft-output-container" class="draft-output hidden">
+                <div class="classification-strip">
+                  <span class="badge-info" id="draft-cat-pill">Category</span>
+                  <span class="badge-warning" id="draft-risk-pill">Risk: Medium</span>
+                  <span class="metrics-text" id="draft-meta-metrics">Latency: 4ms | Confidence: 94%</span>
+                </div>
+
+                <div class="form-group" style="margin-top: 12px;">
+                  <label for="draft-text-editor">Suggested Consultant Reply (Editable):</label>
+                  <textarea id="draft-text-editor" rows="7"></textarea>
+                </div>
+
+                <div class="review-button-group">
+                  <button class="btn btn-success" id="btn-approve-send">Approve & Send</button>
+                  <button class="btn btn-secondary" id="btn-edit-send">Save Edit & Send</button>
+                  <button class="btn btn-danger" id="btn-reject-draft">Reject Draft</button>
+                </div>
+              </div>
+
+              <!-- Autonomy Status Table -->
+              <div class="autonomy-board" style="margin-top: 24px;">
+                <h4>Category Autonomy Tracker (20-Clean-Sends Rule)</h4>
+                <div id="autonomy-cards-grid" class="autonomy-grid"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TAB 3: MEETING TO SCOPE ==================== -->
+    <section id="tab-task3" class="tab-pane">
+      <div class="pane-grid-2">
+        <div class="card">
+          <div class="card-header">
+            <h3>Meeting Transcripts & Analysis</h3>
+            <span class="badge-tag">Multi-Agent Team</span>
+          </div>
+          <div class="card-body">
+            <div class="form-row">
+              <div class="form-group flex-1">
+                <label>Select Meeting Session:</label>
+                <select id="meeting-select">
+                  <option value="meeting_a.txt">Meeting A: Initial Discovery (LocalTrades.com)</option>
+                  <option value="meeting_b.txt">Meeting B: E-Commerce & Checkout (BoutiqueFinder)</option>
+                  <option value="meeting_c.txt">Meeting C: Follow-Up Revisions (Scope Diff Demo)</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" id="btn-analyze-meeting" style="margin-top: 24px;">Run Agent Team</button>
+            </div>
+
+            <div class="form-group">
+              <label>Transcript Dialogue:</label>
+              <textarea id="meeting-transcript-text" rows="8" readonly></textarea>
+            </div>
+
+            <div class="diff-trigger-box">
+              <h4>Follow-Up Meeting Comparison Engine:</h4>
+              <p class="description-p">Compare Baseline Meeting A with Follow-Up Meeting C to detect added, modified, removed, and out-of-scope requests.</p>
+              <button class="btn btn-secondary" id="btn-run-diff">Compare Meeting A vs Meeting C (Scope Diff)</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h3>Scope, Estimates & Client Proposal</h3>
+            <span id="proposal-approval-badge" class="badge-tag alert">Awaiting Senior Sign-Off</span>
+          </div>
+          <div class="card-body">
+            <div id="meeting-output-container">
+              <div id="feasibility-section" class="section-block hidden">
+                <h4>1. Product Feasibility Analysis (Task 1 Knowledge Brain Check)</h4>
+                <div id="feasibility-badges-container" class="badges-row"></div>
+              </div>
+
+              <div id="estimates-section" class="section-block hidden">
+                <h4>2. Task Hour Estimates (3-Point Estimation)</h4>
+                <div class="table-responsive">
+                  <table class="data-table" id="estimates-table">
+                    <thead>
+                      <tr>
+                        <th>Task Name</th>
+                        <th>Low</th>
+                        <th>Likely</th>
+                        <th>High</th>
+                        <th>Complexity</th>
+                      </tr>
+                    </thead>
+                    <tbody id="estimates-tbody"></tbody>
+                  </table>
+                </div>
+                <div class="totals-bar" id="estimates-totals-bar"></div>
+              </div>
+
+              <div id="proposal-section" class="section-block hidden">
+                <h4>3. Client-Ready Proposal & Sign-Off</h4>
+                <div id="proposal-preview-text" class="markdown-rendered proposal-view"></div>
+                <div class="approval-card" id="approval-card-box">
+                  <div class="form-row">
+                    <div class="form-group flex-1">
+                      <label>Senior Consultant Reviewer Name:</label>
+                      <input type="text" id="reviewer-name-input" value="Senior Technical Director" />
+                    </div>
+                    <button class="btn btn-success" id="btn-approve-proposal" style="margin-top: 24px;">Approve Proposal for Client</button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="diff-section" class="section-block hidden">
+                <h4>Scope Revision & Change Report (Diff Visualizer)</h4>
+                <div id="diff-preview-text" class="markdown-rendered diff-view"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
