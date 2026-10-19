@@ -1,0 +1,312 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "4b6d86797433",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001516-how-to-connect-stripe-payment-gateway",
+      "title": "How to Connect Stripe Payment Gateway",
+      "category": "Finance & Payments",
+      "folder": "Payment Gateways",
+      "heading": "Connecting Stripe via Stripe Connect",
+      "text": "Document: How to Connect Stripe Payment Gateway\nCategory: Finance & Payments > Payment Gateways\nSection: Connecting Stripe via Stripe Connect\nContent:\nTo collect membership fees and recurring payments, navigate in your admin dashboard to Finance > Payment Gateways. Select Stripe from the list of supported processors and click 'Connect with Stripe'. You will be redirected to the secure Stripe authorization page. Log into your existing Stripe merchant account or register a new one. Grant permissions to Brilliant Directories to create charges and manage subscriptions. Once authorized, you will be returned to your admin dashboard where the status displays 'Connected (Live Mode)'.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating How to Connect Stripe Payment Gateway configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "To collect membership fees and recurring payments, navigate in your admin dashboard to Finance > Payment Gateways. Select Stripe from the list of supported processors and click 'Connect with Stripe'. You will be redirected to the secure Stripe authorization page. Log into your existing Stripe merchant account or register a new one. Grant permissions to Brilliant Directories to create charges and manage subscriptions. Once authorized, you will be returned to your admin dashboard where the status displays 'Connected (Live Mode)'.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/finance_stripe_connect_button.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "8378b77d4069",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000001516-how-to-connect-stripe-payment-gateway",
+      "title": "How to Connect Stripe Payment Gateway",
+      "category": "Finance & Payments",
+      "folder": "Payment Gateways",
+      "heading": "Webhook and 3D Secure Configuration",
+      "text": "Document: How to Connect Stripe Payment Gateway\nCategory: Finance & Payments > Payment Gateways\nSection: Webhook and 3D Secure Configuration\nContent:\nBrilliant Directories automatically provisions webhook listeners for customer.subscription.deleted, invoice.payment_succeeded, and charge.refunded events. 3D Secure (SCA - Strong Customer Authentication) is supported natively on checkout forms. Ensure that Test Mode is toggled OFF in Finance > Payment Gateways prior to launching public membership plans.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating How to Connect Stripe Payment Gateway configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Brilliant Directories automatically provisions webhook listeners for customer.subscription.deleted, invoice.payment_succeeded, and charge.refunded events. 3D Secure (SCA - Strong Customer Authentication) is supported natively on checkout forms. Ensure that Test Mode is toggled OFF in Finance > Payment Gateways prior to launching public membership plans.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/stripe_webhook_listener_status.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "76957729dc5d",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002140-how-to-customize-member-search-results",
+      "title": "How to Customize Member Search Results & Filtering",
+      "category": "Members & Listings",
+      "folder": "Search Settings",
+      "heading": "Configuring Search Result Layouts",
+      "text": "Document: How to Customize Member Search Results & Filtering\nCategory: Members & Listings > Search Settings\nSection: Configuring Search Result Layouts\nContent:\nYou can customize how members are displayed in directory searches by navigating to My Members > Search Results Settings. Under the 'Display View' dropdown, choose between List View, Grid View, or Map Split View. You can configure the number of members per page (default is 10, up to 50) and toggle whether member phone numbers and addresses are visible to non-logged-in visitors.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating How to Customize Member Search Results & Filtering configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "You can customize how members are displayed in directory searches by navigating to My Members > Search Results Settings. Under the 'Display View' dropdown, choose between List View, Grid View, or Map Split View. You can configure the number of members per page (default is 10, up to 50) and toggle whether member phone numbers and addresses are visible to non-logged-in visitors.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/members_search_layout_toggle.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "034d4bee57ac",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000002140-how-to-customize-member-search-results",
+      "title": "How to Customize Member Search Results & Filtering",
+      "category": "Members & Listings",
+      "folder": "Search Settings",
+      "heading": "Enabling Sidebar Filters and Location Radius",
+      "text": "Document: How to Customize Member Search Results & Filtering\nCategory: Members & Listings > Search Settings\nSection: Enabling Sidebar Filters and Location Radius\nContent:\nTo enable sidebar search filters, go to Settings > Design Settings > Search Results Pages. Enable 'Sidebar Search Filter Widget'. This allows users to filter members by Category, Sub-category, City, Postal Code, and Star Ratings. You can also define the default search radius (e.g., 25 miles or 50 km) using Google Maps API integration settings.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating How to Customize Member Search Results & Filtering configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "To enable sidebar search filters, go to Settings > Design Settings > Search Results Pages. Enable 'Sidebar Search Filter Widget'. This allows users to filter members by Category, Sub-category, City, Postal Code, and Star Ratings. You can also define the default search radius (e.g., 25 miles or 50 km) using Google Maps API integration settings.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/sidebar_filter_facets_menu.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "c425b4f3e8fd",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003412-how-to-process-refunds-and-void-invoices",
+      "title": "How to Process Member Refunds and Void Invoices",
+      "category": "Finance & Payments",
+      "folder": "Billing & Invoicing",
+      "heading": "Issuing a Refund in Transaction History",
+      "text": "Document: How to Process Member Refunds and Void Invoices\nCategory: Finance & Payments > Billing & Invoicing\nSection: Issuing a Refund in Transaction History\nContent:\nTo issue a refund to a member, navigate to Finance > Transaction History. Locate the specific transaction using the member name, email, or Transaction ID filter. Click the 'Actions' gear icon next to the payment and select 'Issue Refund'. You may enter a Full Refund or a Partial Refund amount. Check the box 'Notify Member via Email' to automatically send the refund confirmation email template.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating How to Process Member Refunds and Void Invoices configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "To issue a refund to a member, navigate to Finance > Transaction History. Locate the specific transaction using the member name, email, or Transaction ID filter. Click the 'Actions' gear icon next to the payment and select 'Issue Refund'. You may enter a Full Refund or a Partial Refund amount. Check the box 'Notify Member via Email' to automatically send the refund confirmation email template.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/finance_transaction_refund_modal.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "fd1ed748406a",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000003412-how-to-process-refunds-and-void-invoices",
+      "title": "How to Process Member Refunds and Void Invoices",
+      "category": "Finance & Payments",
+      "folder": "Billing & Invoicing",
+      "heading": "Canceling Subscriptions and Voiding Invoices",
+      "text": "Document: How to Process Member Refunds and Void Invoices\nCategory: Finance & Payments > Billing & Invoicing\nSection: Canceling Subscriptions and Voiding Invoices\nContent:\nRefunding a transaction does not automatically cancel a recurring subscription. To stop future billings, navigate to My Members > Search Members, locate the member profile, click 'Edit Details', and set Membership Plan status to 'Cancelled' or 'Non-Renewing'. To void unpaid pending invoices, go to Finance > Invoices and click 'Void Invoice' from the dropdown actions menu.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating How to Process Member Refunds and Void Invoices configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Refunding a transaction does not automatically cancel a recurring subscription. To stop future billings, navigate to My Members > Search Members, locate the member profile, click 'Edit Details', and set Membership Plan status to 'Cancelled' or 'Non-Renewing'. To void unpaid pending invoices, go to Finance > Invoices and click 'Void Invoice' from the dropdown actions menu.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/member_subscription_cancel_toggle.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "6a1ec247ad82",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004118-setting-up-membership-plans-and-pricing",
+      "title": "Setting Up Membership Plans and Pricing Tiers",
+      "category": "Finance & Payments",
+      "folder": "Membership Plans",
+      "heading": "Creating Paid and Free Membership Tiers",
+      "text": "Document: Setting Up Membership Plans and Pricing Tiers\nCategory: Finance & Payments > Membership Plans\nSection: Creating Paid and Free Membership Tiers\nContent:\nNavigate to Finance > Membership Plans. Click 'Add New Membership Plan'. Set the Plan Name (e.g., Free Basic, Premium Professional). Under the 'Pricing' tab, choose between Free, One-Time Payment, or Recurring Billing. For recurring plans, specify the billing cycle (Monthly, Quarterly, Semi-Annually, or Annually) and the recurring price. You can also define a Trial Period (e.g., 14 days free trial) and a Setup Fee.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Setting Up Membership Plans and Pricing Tiers configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Navigate to Finance > Membership Plans. Click 'Add New Membership Plan'. Set the Plan Name (e.g., Free Basic, Premium Professional). Under the 'Pricing' tab, choose between Free, One-Time Payment, or Recurring Billing. For recurring plans, specify the billing cycle (Monthly, Quarterly, Semi-Annually, or Annually) and the recurring price. You can also define a Trial Period (e.g., 14 days free trial) and a Setup Fee.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/membership_plans_pricing_setup.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "3c0ca2178e90",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000004118-setting-up-membership-plans-and-pricing",
+      "title": "Setting Up Membership Plans and Pricing Tiers",
+      "category": "Finance & Payments",
+      "folder": "Membership Plans",
+      "heading": "Post-Publishing and Profile Permissions",
+      "text": "Document: Setting Up Membership Plans and Pricing Tiers\nCategory: Finance & Payments > Membership Plans\nSection: Post-Publishing and Profile Permissions\nContent:\nUnder the 'Post Publishing' tab of each plan, control what content types the member can publish, such as Articles, Classifieds, Events, Coupons, and Job Listings. You can set maximum post limits per tier (e.g., Basic: 5 events, Premium: Unlimited events).\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Setting Up Membership Plans and Pricing Tiers configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Under the 'Post Publishing' tab of each plan, control what content types the member can publish, such as Articles, Classifieds, Events, Coupons, and Job Listings. You can set maximum post limits per tier (e.g., Basic: 5 events, Premium: Unlimited events).",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/post_publishing_privileges_matrix.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "974f6bb9b5c0",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005520-auto-matching-leads-to-members",
+      "title": "Auto-Matching Leads to Members and Lead Distribution",
+      "category": "Leads & Inquiries",
+      "folder": "Lead Management",
+      "heading": "Configuring Lead Routing Rules",
+      "text": "Document: Auto-Matching Leads to Members and Lead Distribution\nCategory: Leads & Inquiries > Lead Management\nSection: Configuring Lead Routing Rules\nContent:\nNavigate to Leads > Lead Settings. Under 'Matching Rules', specify whether leads submitted through the site's Get a Quote or Contact forms are auto-matched based on: 1. Top Category selected, 2. Sub-categories, and 3. Geographical Location (city or postal radius). You can configure maximum matched members per lead (e.g. up to 3 members).\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Auto-Matching Leads to Members and Lead Distribution configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Navigate to Leads > Lead Settings. Under 'Matching Rules', specify whether leads submitted through the site's Get a Quote or Contact forms are auto-matched based on: 1. Top Category selected, 2. Sub-categories, and 3. Geographical Location (city or postal radius). You can configure maximum matched members per lead (e.g. up to 3 members).",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/lead_routing_radius_settings.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "64c51ecb8034",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000005520-auto-matching-leads-to-members",
+      "title": "Auto-Matching Leads to Members and Lead Distribution",
+      "category": "Leads & Inquiries",
+      "folder": "Lead Management",
+      "heading": "Lead Preview and Purchase Notifications",
+      "text": "Document: Auto-Matching Leads to Members and Lead Distribution\nCategory: Leads & Inquiries > Lead Management\nSection: Lead Preview and Purchase Notifications\nContent:\nMembers receive an instant SMS or Email notification when a relevant lead is available. In the Member Dashboard, they can view the lead summary (service requested, general zip code) without seeing contact details until they click 'Accept / Purchase Lead'. Lead pricing can be set per membership plan or category under Leads > Lead Settings.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Auto-Matching Leads to Members and Lead Distribution configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Members receive an instant SMS or Email notification when a relevant lead is available. In the Member Dashboard, they can view the lead summary (service requested, general zip code) without seeing contact details until they click 'Accept / Purchase Lead'. Lead pricing can be set per membership plan or category under Leads > Lead Settings.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/lead_preview_purchase_screen.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "d2299d235609",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006230-adding-custom-css-and-header-code",
+      "title": "Adding Custom CSS and Header Code to Your Site",
+      "category": "Design & Customization",
+      "folder": "Custom Scripts",
+      "heading": "Inserting Custom CSS Styles",
+      "text": "Document: Adding Custom CSS and Header Code to Your Site\nCategory: Design & Customization > Custom Scripts\nSection: Inserting Custom CSS Styles\nContent:\nTo modify site styling without editing core theme widgets, go to Settings > Design Settings. Click on the 'Custom CSS / HEAD' tab. In the 'Additional CSS' textarea, input your custom CSS rules. These rules load after bootstrap and theme stylesheets, allowing you to override typography, button colors, and card layouts. Always click 'Save Changes' to recompile the stylesheet cache.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Adding Custom CSS and Header Code to Your Site configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "To modify site styling without editing core theme widgets, go to Settings > Design Settings. Click on the 'Custom CSS / HEAD' tab. In the 'Additional CSS' textarea, input your custom CSS rules. These rules load after bootstrap and theme stylesheets, allowing you to override typography, button colors, and card layouts. Always click 'Save Changes' to recompile the stylesheet cache.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/design_settings_custom_css_tab.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "2bc624f8228d",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000006230-adding-custom-css-and-header-code",
+      "title": "Adding Custom CSS and Header Code to Your Site",
+      "category": "Design & Customization",
+      "folder": "Custom Scripts",
+      "heading": "Adding Analytics and Header Scripts",
+      "text": "Document: Adding Custom CSS and Header Code to Your Site\nCategory: Design & Customization > Custom Scripts\nSection: Adding Analytics and Header Scripts\nContent:\nIn the same tab (Settings > Design Settings > Custom CSS / HEAD), use the 'Header Code' box to insert third-party scripts such as Google Tag Manager, Google Analytics 4, Meta Pixel, or live chat widgets. Do not place script tags in the CSS textarea.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Adding Custom CSS and Header Code to Your Site configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "In the same tab (Settings > Design Settings > Custom CSS / HEAD), use the 'Header Code' box to insert third-party scripts such as Google Tag Manager, Google Analytics 4, Meta Pixel, or live chat widgets. Do not place script tags in the CSS textarea.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/header_tracking_scripts_box.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "5862a39bb3af",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000007890-webhooks-and-api-documentation",
+      "title": "Configuring Webhooks and Developer API Services",
+      "category": "Developer Tools",
+      "folder": "API & Integrations",
+      "heading": "Setting Up Outgoing Webhooks",
+      "text": "Document: Configuring Webhooks and Developer API Services\nCategory: Developer Tools > API & Integrations\nSection: Setting Up Outgoing Webhooks\nContent:\nBrilliant Directories allows real-time data export via Webhooks to Zapier, Make, or custom REST APIs. Navigate to Developer Hub > API Services > Webhook Endpoints. Click 'Add Webhook'. Select the trigger event: 'Member Signup', 'Member Profile Updated', 'Lead Submitted', or 'Payment Completed'. Enter your destination URL and authorization header token.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Configuring Webhooks and Developer API Services configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Brilliant Directories allows real-time data export via Webhooks to Zapier, Make, or custom REST APIs. Navigate to Developer Hub > API Services > Webhook Endpoints. Click 'Add Webhook'. Select the trigger event: 'Member Signup', 'Member Profile Updated', 'Lead Submitted', or 'Payment Completed'. Enter your destination URL and authorization header token.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/developer_api_webhook_endpoints.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "d2306760a8f6",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000007890-webhooks-and-api-documentation",
+      "title": "Configuring Webhooks and Developer API Services",
+      "category": "Developer Tools",
+      "folder": "API & Integrations",
+      "heading": "Using the REST API for Member Management",
+      "text": "Document: Configuring Webhooks and Developer API Services\nCategory: Developer Tools > API & Integrations\nSection: Using the REST API for Member Management\nContent:\nThe Brilliant Directories API supports GET, POST, PUT, and DELETE operations for members, coupons, and posts. Generate an API Key under Developer Hub > API Keys. Send the key in the request header as `X-Api-Key: {your_key}`. Rate limits are 120 requests per minute per domain.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Configuring Webhooks and Developer API Services configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "The Brilliant Directories API supports GET, POST, PUT, and DELETE operations for members, coupons, and posts. Generate an API Key under Developer Hub > API Keys. Send the key in the request header as `X-Api-Key: {your_key}`. Rate limits are 120 requests per minute per domain.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/api_key_generation_modal.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "5cefaa842d37",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008450-customizing-system-email-templates",
+      "title": "Customizing System Email Templates and Merge Tags",
+      "category": "Emails & Notifications",
+      "folder": "Email Templates",
+      "heading": "Editing Notification Templates",
+      "text": "Document: Customizing System Email Templates and Merge Tags\nCategory: Emails & Notifications > Email Templates\nSection: Editing Notification Templates\nContent:\nTo customize emails sent to members and admins, navigate to Emails > Email Templates. Search for the template you wish to update, such as 'welcome-member', 'invoice-payment-receipt', or 'member-password-reset'. Click 'Edit'. You can edit both the Subject Line and the HTML body using the WYSIWYG editor.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Customizing System Email Templates and Merge Tags configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "To customize emails sent to members and admins, navigate to Emails > Email Templates. Search for the template you wish to update, such as 'welcome-member', 'invoice-payment-receipt', or 'member-password-reset'. Click 'Edit'. You can edit both the Subject Line and the HTML body using the WYSIWYG editor.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/email_templates_editor_view.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "3f229dd3b760",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000008450-customizing-system-email-templates",
+      "title": "Customizing System Email Templates and Merge Tags",
+      "category": "Emails & Notifications",
+      "folder": "Email Templates",
+      "heading": "Using Dynamic Merge Tags",
+      "text": "Document: Customizing System Email Templates and Merge Tags\nCategory: Emails & Notifications > Email Templates\nSection: Using Dynamic Merge Tags\nContent:\nMerge tags are dynamically replaced with member and site information upon dispatch. Common merge tags include: `%first_name%`, `%last_name%`, `%user_email%`, `%site_name%`, `%listing_url%`, and `%invoice_total%`. Always preview or send a test email to verify formatting before saving.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Customizing System Email Templates and Merge Tags configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Merge tags are dynamically replaced with member and site information upon dispatch. Common merge tags include: `%first_name%`, `%last_name%`, `%user_email%`, `%site_name%`, `%listing_url%`, and `%invoice_total%`. Always preview or send a test email to verify formatting before saving.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/email_merge_tags_reference_table.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "aea9c58ef787",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000009110-seo-templates-and-social-media-sharing",
+      "title": "SEO Templates and Social Media Open Graph Settings",
+      "category": "SEO & Marketing",
+      "folder": "SEO Configuration",
+      "heading": "Configuring Dynamic Meta Tags and Open Graph",
+      "text": "Document: SEO Templates and Social Media Open Graph Settings\nCategory: SEO & Marketing > SEO Configuration\nSection: Configuring Dynamic Meta Tags and Open Graph\nContent:\nNavigate to SEO Templates > SEO Templates in your dashboard. You can define global patterns for Title Tags, Meta Descriptions, and Canonical URLs across member profiles, search result pages, and articles. Use variables like `%%%profession%%% in %%%city%%%, %%%state%%%` to automatically generate high-ranking page titles. Upload a default Open Graph image (1200x630px) under Settings > General Settings > Social Media to ensure clean link previews on Facebook and LinkedIn.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating SEO Templates and Social Media Open Graph Settings configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "Navigate to SEO Templates > SEO Templates in your dashboard. You can define global patterns for Title Tags, Meta Descriptions, and Canonical URLs across member profiles, search result pages, and articles. Use variables like `%%%profession%%% in %%%city%%%, %%%state%%%` to automatically generate high-ranking page titles. Upload a default Open Graph image (1200x630px) under Settings > General Settings > Social Media to ensure clean link previews on Facebook and LinkedIn.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/seo_templates_meta_variables.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "a44bf1e68944",
+      "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000010320-enabling-google-recaptcha-for-forms",
+      "title": "Enabling Google reCAPTCHA v2 and v3 for Spam Protection",
+      "category": "Settings & Security",
+      "folder": "Security & Spam",
+      "heading": "Activating reCAPTCHA Keys",
+      "text": "Document: Enabling Google reCAPTCHA v2 and v3 for Spam Protection\nCategory: Settings & Security > Security & Spam\nSection: Activating reCAPTCHA Keys\nContent:\nTo protect registration and contact forms from automated bot submissions, go to Settings > General Settings > Integrations. Scroll down to Google reCAPTCHA. Enter your Google reCAPTCHA Site Key and Secret Key. Select between reCAPTCHA v2 ('I am not a robot' checkbox) or reCAPTCHA v3 (invisible score-based protection). Check the forms you want protected: Member Signup, Contact Us, Lead Form, and Review Submission. Click Save Changes.\n\nAssociated Visual Context:\n[Visual Screenshot Note: Screenshot demonstrating Enabling Google reCAPTCHA v2 and v3 for Spam Protection configuration and settings in Brilliant Directories admin panel.]",
+      "raw_body": "To protect registration and contact forms from automated bot submissions, go to Settings > General Settings > Integrations. Scroll down to Google reCAPTCHA. Enter your Google reCAPTCHA Site Key and Secret Key. Select between reCAPTCHA v2 ('I am not a robot' checkbox) or reCAPTCHA v3 (invisible score-based protection). Check the forms you want protected: Member Signup, Contact Us, Lead Form, and Review Submission. Click Save Changes.",
+      "images": [
+        "https://support.brilliantdirectories.com/assets/screenshots/google_recaptcha_integration_fields.png"
+      ],
+      "is_expert_verified": false
+    },
+    {
+      "chunk_id": "expert_esc_20261019_9eaecf",
+      "url": "https://support.brilliantdirectories.com/support/expert-answers/ESC-20261019-9EAECF",
+      "title": "Expert Answer: Can we integrate custom Solana cryptocurrency payments?",
+      "category": "Expert Resolutions",
+      "folder": "Human in the Loop",
+      "heading": "Authoritative Expert Solution",
+      "text": "Document: Expert Resolution ESC-20261019-9EAECF\nQuestion Asked: Can we integrate custom Solana cryptocurrency payments?\nVerified Expert Solution (Lead Architect John):\nSolana is not natively supported by Brilliant Directories. To accept SOL, you must use our Webhook Service (Developer Hub > API Services) to ping a custom middleware like Helio or Solana Pay, then credit the member profile via REST API PUT /members/{id}.\nAdditional Policy / Operational Notes:\nRequires external server.",
+      "raw_body": "Solana is not natively supported by Brilliant Directories. To accept SOL, you must use our Webhook Service (Developer Hub > API Services) to ping a custom middleware like Helio or Solana Pay, then credit the member profile via REST API PUT /members/{id}.",
+      "images": [],
+      "is_expert_verified": true
+    }
+  ],
+  "url_to_chunk_ids": {
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000001516-how-to-connect-stripe-payment-gateway": [
+      "4b6d86797433",
+      "8378b77d4069"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000002140-how-to-customize-member-search-results": [
+      "76957729dc5d",
+      "034d4bee57ac"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000003412-how-to-process-refunds-and-void-invoices": [
+      "c425b4f3e8fd",
+      "fd1ed748406a"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000004118-setting-up-membership-plans-and-pricing": [
+      "6a1ec247ad82",
+      "3c0ca2178e90"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000005520-auto-matching-leads-to-members": [
+      "974f6bb9b5c0",
+      "64c51ecb8034"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000006230-adding-custom-css-and-header-code": [
+      "d2299d235609",
+      "2bc624f8228d"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000007890-webhooks-and-api-documentation": [
+      "5862a39bb3af",
+      "d2306760a8f6"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000008450-customizing-system-email-templates": [
+      "5cefaa842d37",
+      "3f229dd3b760"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000009110-seo-templates-and-social-media-sharing": [
+      "aea9c58ef787"
+    ],
+    "https://support.brilliantdirectories.com/support/solutions/articles/12000010320-enabling-google-recaptcha-for-forms": [
+      "a44bf1e68944"
+    ],
+    "https://support.brilliantdirectories.com/support/expert-answers/ESC-20261019-9EAECF": [
+      "expert_esc_20261019_9eaecf"
+    ]
+  },
+  "count": 19
+}
