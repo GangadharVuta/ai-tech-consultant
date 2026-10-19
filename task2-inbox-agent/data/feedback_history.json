@@ -1,0 +1,26 @@
+[
+  {
+    "id": "FDB-1792381564383-R5TY",
+    "email_id": "EM-TEST",
+    "draft_id": "DRF-TEST",
+    "category": "how_to",
+    "original_draft": "Hello, please visit the finance settings panel.",
+    "sent_reply": "Hi there, please head over to Finance > Payment Gateways right away.",
+    "action": "edit_and_send",
+    "edit_similarity": 0.21,
+    "editor_name": "Lead Reviewer",
+    "timestamp": "2026-10-19T03:46:04.383Z"
+  },
+  {
+    "id": "FDB-1792381592863-OJJV",
+    "email_id": "EM-TEST",
+    "draft_id": "DRF-TEST",
+    "category": "how_to",
+    "original_draft": "Hello, please visit the finance settings panel.",
+    "sent_reply": "Hi there, please head over to Finance > Payment Gateways right away.",
+    "action": "edit_and_send",
+    "edit_similarity": 0.21,
+    "editor_name": "Lead Reviewer",
+    "timestamp": "2026-10-19T03:46:32.863Z"
+  }
+]

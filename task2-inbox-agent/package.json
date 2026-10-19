@@ -1,0 +1,28 @@
+{
+  "name": "task2-inbox-agent",
+  "version": "1.0.0",
+  "description": "Task 2: The Inbox Agent - Smart customer email drafting, learning from human edits and safe auto-sending",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/server.ts",
+    "test": "ts-node src/evaluation/run_evals.ts",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["ai", "email", "inbox", "agent", "human-in-the-loop"],
+  "author": "Applied AI Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

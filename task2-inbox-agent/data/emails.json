@@ -1,0 +1,452 @@
+[
+  {
+    "id": "EM-001",
+    "sender": "sarah.jenkins@lawdirectory.com",
+    "subject": "How do I connect Stripe to accept credit card payments?",
+    "body": "Hi Support, We just created our law directory on Brilliant Directories. We need to start accepting payments for our premium attorney listings. Where do we go in the admin panel to hook up our Stripe account? Thanks, Sarah",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-002",
+    "sender": "marcus.vance@dentalnetwork.org",
+    "subject": "Adding search filter for dentist specialties",
+    "body": "Hello, Our visitors want to filter dentists by specialty (Orthodontics, Periodontics) and city in the sidebar of the search results page. Can this be done without custom coding? Please advise where this is configured.",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-003",
+    "sender": "elena.rostova@fitnesspro.co",
+    "subject": "Setting up 14-day free trial on Gold Plan",
+    "body": "Hi team, We want to offer personal trainers a 14-day free trial when they join our Gold tier before charging them $49/mo. How do we configure trial days on membership plans?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-004",
+    "sender": "dave.miller@tradeconnect.com",
+    "subject": "How do leads get automatically routed to contractors?",
+    "body": "Hi, When a homeowner submits a quote request on our site, how does the system decide which contractors receive the lead? Can we limit it to 3 contractors within a 25-mile radius?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-005",
+    "sender": "claire.bennett@artisansguild.org",
+    "subject": "Where do I add Google Tag Manager script?",
+    "body": "Hello, Our marketing agency needs us to install our Google Tag Manager container snippet into the head of the website. Where in the dashboard can I paste this header code safely?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-006",
+    "sender": "robert.lang@realestatehub.net",
+    "subject": "Sending new member signups to Zapier via Webhook",
+    "body": "Hey team, We use HubSpot CRM and want every new registered agent on our directory pushed to HubSpot via Zapier. Does BD support outgoing webhooks, and where do I configure the endpoint?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-007",
+    "sender": "amanda.k@petcarefinder.com",
+    "subject": "Customizing the welcome email template",
+    "body": "Hi, We want to change the text and branding of the automatic welcome email that members receive right after signing up. Can we use dynamic merge tags for their name and profile link?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-008",
+    "sender": "tom.h@localweddings.com",
+    "subject": "Customizing SEO Title Tags for City Pages",
+    "body": "Hello, We want our search result pages to automatically have titles like 'Wedding Photographers in Chicago, IL'. Where are the SEO templates located in the backend?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-009",
+    "sender": "priya.n@techconsultants.io",
+    "subject": "Stopping spam bot registrations on sign up form",
+    "body": "Hi, We are getting 20 fake bot signups a day on our free member plan. How can we enable Google reCAPTCHA v2 or v3 on the registration forms?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-010",
+    "sender": "greg.s@autorepairdirect.com",
+    "subject": "Changing member search results to Grid View instead of List",
+    "body": "Hi, Currently our mechanics appear as a long vertical list. We would prefer a modern 3-column card grid view. Where in the settings can I switch this display layout?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-011",
+    "sender": "rachel.w@wellnessdirectory.com",
+    "subject": "Restricting member post publishing limits",
+    "body": "Hello, On our Silver plan, we want members to be able to post a maximum of 2 articles and 1 coupon, while Gold members get unlimited. Is there a post publishing privilege matrix?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-012",
+    "sender": "kevin.b@contractorshub.com",
+    "subject": "Adding custom CSS to change button colors",
+    "body": "Hi, I want to change all primary search buttons from orange to navy blue (#0f2b5c). Where should I insert our custom CSS overrides?",
+    "expected_category": "how_to",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-013",
+    "sender": "linda.c@therapistnetwork.com",
+    "subject": "Stripe credit card payments failing with error",
+    "body": "URGENT: Three prospective members tried signing up this morning and got a 'Card declined / authentication failed' error on checkout. Our Stripe account is in good standing. What should we check in our BD Stripe setup?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-014",
+    "sender": "steve.m@homeproconnect.com",
+    "subject": "Member search results returning zero listings",
+    "body": "Hi Support, When visitors search for 'Electrician' in 'Austin, TX', the site displays 'No members found', even though we have 5 active electricians listed with Austin addresses. Why are they not showing?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-015",
+    "sender": "nina.p@yogaalliancehub.org",
+    "subject": "Welcome emails are not being delivered to members",
+    "body": "Hello, Multiple new instructors told us they never received their registration confirmation or login password email. Is there an email delivery log or SMTP issue we need to fix?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-016",
+    "sender": "jason.t@toursandguides.com",
+    "subject": "Google Maps location search showing 'For development purposes only'",
+    "body": "Hi, Our map on the search page has a gray watermark saying 'For development purposes only' and address autocomplete is failing. How do we update our Google Maps API key?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-017",
+    "sender": "hannah.k@tutorconnect.org",
+    "subject": "Member charged twice for recurring subscription",
+    "body": "Hello, One of our premium tutors (ID #4092) was billed twice on October 1st for their monthly renewal ($39.00 x 2). How do we void one invoice and refund the duplicate charge without canceling their plan?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-018",
+    "sender": "carlos.r@latinobusinessnetwork.com",
+    "subject": "Lead notification SMS not triggering to members",
+    "body": "Hi, We configured auto-match leads, but contractors are telling us they only get emails and no SMS alerts when new quotes come in. Does BD require a Twilio integration?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-019",
+    "sender": "melissa.f@childcaredirectory.com",
+    "subject": "reCAPTCHA error 'Invalid site key' appearing on signup page",
+    "body": "Help! Our sign up form is completely blocked with a red error saying 'ERROR for site owner: Invalid domain for site key'. Nobody can register today. What did we do wrong?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-020",
+    "sender": "brian.w@yachtbrokers.net",
+    "subject": "Member photos appear rotated or upside down on upload",
+    "body": "Hi, When members upload profile photos taken on iPhones, some profile avatars are rotated 90 degrees. Does the platform auto-orient EXIF data or do members need to resize first?",
+    "expected_category": "troubleshooting",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-021",
+    "sender": "patricia.d@cleaningserviceshub.com",
+    "subject": "Webhook payload returning 403 Forbidden to Zapier",
+    "body": "Hello, Our outgoing member signup webhook is failing with HTTP 403 Forbidden on the Zapier receiving hook. Is there a specific user agent or auth token header format required?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-022",
+    "sender": "sam.o@craftbreweryguide.com",
+    "subject": "SSL certificate warning showing on custom domain",
+    "body": "Hi, We pointed our DNS A-record to the BD server yesterday, but our visitors get a browser warning 'Your connection is not private'. How long does Let's Encrypt SSL take to generate?",
+    "expected_category": "troubleshooting",
+    "risk_level": "medium",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-023",
+    "sender": "anthony.g@legalmatchmakers.com",
+    "subject": "Custom Project: Need multi-currency checkout for UK & EU attorneys",
+    "body": "Hi Consulting Team, We want to expand our directory to the UK and Europe. We need attorneys in the UK to be billed in GBP (£) and attorneys in France/Germany in EUR (€), with localized VAT tax invoices. Can your team build this custom multi-currency billing integration for us?",
+    "expected_category": "project_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-024",
+    "sender": "danielle.s@physiciandirect.org",
+    "subject": "Request to build a custom telemedicine video portal inside member dashboard",
+    "body": "Hello, We would like to add a HIPAA-compliant video consultation feature directly inside our doctor profiles using Twilio or Agora API. Doctors could schedule and launch calls with patients. Can you provide a scope of work and estimate for building this module?",
+    "expected_category": "project_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-025",
+    "sender": "frank.l@autobodylocator.com",
+    "subject": "Integration with Mitchell 1 automotive repair data feed",
+    "body": "Hi, We want to automatically ingest 15,000 auto repair shops from an external XML data feed provided by Mitchell 1, updated nightly via cron. We need duplicate deduplication by business phone. Can you quote us for this custom ETL ingestion script?",
+    "expected_category": "project_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-026",
+    "sender": "olivia.m@weddingvenuespot.com",
+    "subject": "Custom 360-degree virtual tour viewer widget",
+    "body": "Hi, We want venue owners to embed Matterport 3D virtual walkthroughs on their listing pages in a dedicated tab with floor plan navigation. Could your team build this custom widget for our theme?",
+    "expected_category": "project_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-027",
+    "sender": "victor.h@franchisedirectory.com",
+    "subject": "Build custom multi-location franchise management portal",
+    "body": "Hello, We need franchise parent brands (e.g., Subway, Domino's) to be able to manage 50+ child locations from a single master login, with pooled billing. What would it take to build this custom parent/child member architecture?",
+    "expected_category": "project_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-028",
+    "sender": "natalie.r@coworkingspaces.io",
+    "subject": "Real-time desk booking and calendar sync integration",
+    "body": "Hi Consulting, We want our coworking spaces to offer hourly desk booking with Cal.com or Google Calendar sync and instant Stripe payments. Is this something your developers can build onto our existing BD directory?",
+    "expected_category": "project_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-029",
+    "sender": "charles.k@realtoralliance.org",
+    "subject": "Cancel our annual plan and issue immediate refund of $1,450",
+    "body": "To Billing: We signed up for the VIP Annual plan 12 days ago under order #88412. Our board decided not to pursue this project. As per your 14-day guarantee, please immediately cancel our account and issue a 100% full refund of $1,450 to our corporate Amex ending in 4102.",
+    "expected_category": "refund_cancellation",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-030",
+    "sender": "janet.w@boutiquefinder.com",
+    "subject": "Cancellation of add-on package & partial refund request",
+    "body": "Hello, We purchased the SEO Booster add-on last week ($299) by mistake, thinking it was included in our license. We have not used it. Please remove the add-on and refund the $299 charge.",
+    "expected_category": "refund_cancellation",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-031",
+    "sender": "mark.e@dentistlocator.com",
+    "subject": "Unsubscribe and cancel monthly hosting subscription",
+    "body": "Please cancel our recurring monthly hosting fee ($95/mo) effective immediately. We sold our directory business last week. Please confirm cancellation and ensure our card is never charged again.",
+    "expected_category": "refund_cancellation",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-032",
+    "sender": "elizabeth.m@eventplannershub.org",
+    "subject": "Accidental double payment refund request",
+    "body": "Hi, I clicked the renew button twice on our annual license invoice #55120 and our banking app shows two charges of $850. Please refund the duplicate $850 charge back to our card.",
+    "expected_category": "refund_cancellation",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-033",
+    "sender": "brandon.p@tradespeople.com.au",
+    "subject": "Cancel account due to currency conversion fees",
+    "body": "Hi, We are based in Australia and were unaware all billings were in USD. The foreign exchange fees make this unviable for us. Please cancel our subscription and refund the initial setup fee.",
+    "expected_category": "refund_cancellation",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-034",
+    "sender": "fiona.t@petbreedersnet.com",
+    "subject": "Refund request - feature was not as advertised",
+    "body": "Hello, We bought the lead generation module yesterday for $199, but it does not support SMS in our country. We want a refund as we were told prior to purchase that SMS worked globally.",
+    "expected_category": "refund_cancellation",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-035",
+    "sender": "george.h@seniorcareadvisors.com",
+    "subject": "COMPLAINT: Website down for 4 hours during our national ad campaign",
+    "body": "I am furious. We launched a $10,000 Facebook ad campaign this morning and our directory was returning 502 Bad Gateway errors for four hours! We lost dozens of high-value client leads. Who is responsible for this server crash and how will you compensate our business?",
+    "expected_category": "complaint",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-036",
+    "sender": "monica.g@wellnesshub.org",
+    "subject": "Terrible response time from your technical support",
+    "body": "I submitted a high-priority ticket on Thursday regarding our broken member registration form, and it is now Monday with zero response! Our prospective members cannot sign up. This level of customer service is unacceptable for a paid SaaS product.",
+    "expected_category": "complaint",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-037",
+    "sender": "richard.s@investornetwork.com",
+    "subject": "Recent software update broke our custom homepage layout",
+    "body": "Your software update deployed on Friday completely wiped out our custom header navigation and CSS button stylings. The homepage looks completely deformed. Why was this update pushed without backward compatibility testing?",
+    "expected_category": "complaint",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-038",
+    "sender": "valerie.t@beautysalonnetwork.com",
+    "subject": "Members complaining about spam emails originating from site",
+    "body": "Several of our verified members are angry because they are receiving scam messages through the member contact form. Your spam filter is failing. If this isn't fixed today, several top paying members will cancel.",
+    "expected_category": "complaint",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-039",
+    "sender": "arthur.p@legaladvisorsdirect.com",
+    "subject": "Misleading sales representation regarding mobile app",
+    "body": "When we spoke with your sales rep in September, he explicitly assured us that a native iOS and Android app was included with the package. Now support tells us it is only a responsive PWA web link. I want to speak with a senior executive immediately.",
+    "expected_category": "complaint",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-040",
+    "sender": "suzanne.l@caterersnetwork.org",
+    "subject": "Data loss: 45 member listings vanished from directory",
+    "body": "URGENT ALARM: We imported 45 caterer profiles yesterday afternoon. Today when we logged into the admin dashboard, the entire category is empty! Did your database roll back? We need our data restored from backup immediately.",
+    "expected_category": "complaint",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-041",
+    "sender": "alan.w@homecontractorsnet.com",
+    "subject": "Quote request: Homepage UI redesign and mobile optimization",
+    "body": "Hi Consulting, We want to modernize our homepage to look like Houzz or Thumbtack, with hero video background, modern search pill, and featured category cards. What is your typical timeline and quote for a complete homepage redesign?",
+    "expected_category": "quote_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-042",
+    "sender": "laura.d@accountingpros.io",
+    "subject": "Pricing quote for migrating 8,000 members from WordPress",
+    "body": "Hello, We currently run an accountant directory on WordPress with GeoDirectory. We have 8,000 active member profiles, reviews, and transaction history. Can you provide a fixed-price quote and timeline for doing the complete migration to BD?",
+    "expected_category": "quote_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-043",
+    "sender": "bruce.m@commercialrealestate.net",
+    "subject": "Cost estimate for custom property listing search filter",
+    "body": "Hi, We need a customized search filter that allows filtering properties by square footage slider (1,000 to 50,000 sq ft) and cap rate percentage. How many developer hours would this require and what is your hourly rate?",
+    "expected_category": "quote_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-044",
+    "sender": "denise.c@healthcaredirect.org",
+    "subject": "Quote for custom API integration with Epic EHR system",
+    "body": "Hi, Our hospital network needs member doctors verified in real-time against our Epic provider credentials database via REST API. Could you quote us on developing this authentication bridge?",
+    "expected_category": "quote_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-045",
+    "sender": "timothy.k@architectsnetwork.com",
+    "subject": "Consulting rate for monthly ongoing development retainer",
+    "body": "Hello, We are looking for an ongoing dedicated technical consultant to handle 15 to 20 hours of custom feature requests and site maintenance each month. What packages or retainers do you offer?",
+    "expected_category": "quote_request",
+    "risk_level": "medium",
+    "expected_action": "human_review"
+  },
+  {
+    "id": "EM-046",
+    "sender": "alan.w@homecontractorsnet.com",
+    "subject": "Following up on homepage redesign quote from last Tuesday",
+    "body": "Hi Team, Just following up on my email from last Tuesday regarding the homepage UI redesign quote. We have a board meeting on Thursday and need to present the numbers. Did you have a chance to review our requirements?",
+    "expected_category": "follow_up",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-047",
+    "sender": "laura.d@accountingpros.io",
+    "subject": "Follow-up: Sample CSV export for 8,000 member migration",
+    "body": "Hi Consulting, Following up on our migration discussion, I have attached a sample export of 50 members from our WordPress database for you to inspect the fields. Let me know if you can review the schema and send over the proposal.",
+    "expected_category": "follow_up",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-048",
+    "sender": "steve.m@homeproconnect.com",
+    "subject": "Status on Austin electrician search bug ticket #9412",
+    "body": "Hello, Just checking in to see if your developers identified why our Austin electricians were returning zero search results. Has the location radius patch been applied?",
+    "expected_category": "follow_up",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  },
+  {
+    "id": "EM-049",
+    "sender": "charles.k@realtoralliance.org",
+    "subject": "Second request: Cancellation & refund status for order #88412",
+    "body": "I sent an email 36 hours ago requesting cancellation and refund of our $1,450 annual fee. I have not received written confirmation or a refund receipt. Please reply today with the Stripe transaction refund ID.",
+    "expected_category": "follow_up",
+    "risk_level": "high",
+    "expected_action": "human_approval_required"
+  },
+  {
+    "id": "EM-050",
+    "sender": "anthony.g@legalmatchmakers.com",
+    "subject": "Follow-up on multi-currency proposal & kickoff date",
+    "body": "Hi, Thanks for the initial thoughts on our multi-currency European expansion project. We would like to schedule a 30-minute scoping call this week to finalize the deliverables and get started. What times work for you?",
+    "expected_category": "follow_up",
+    "risk_level": "low",
+    "expected_action": "draft_with_kb"
+  }
+]

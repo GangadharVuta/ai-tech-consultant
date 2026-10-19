@@ -1,0 +1,66 @@
+{
+  "how_to": {
+    "category": "how_to",
+    "consecutive_clean_sends": 0,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": false,
+    "total_processed": 2,
+    "total_human_edits": 2,
+    "last_updated": "2026-10-19T03:46:32.863Z",
+    "last_reset_reason": "Human reviewer edited draft (similarity 0.21, prior streak was 20)"
+  },
+  "troubleshooting": {
+    "category": "troubleshooting",
+    "consecutive_clean_sends": 0,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": false,
+    "total_processed": 0,
+    "total_human_edits": 0,
+    "last_updated": "2026-10-19T03:46:04.226Z"
+  },
+  "project_request": {
+    "category": "project_request",
+    "consecutive_clean_sends": 0,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": false,
+    "total_processed": 0,
+    "total_human_edits": 0,
+    "last_updated": "2026-10-19T03:46:04.226Z"
+  },
+  "refund_cancellation": {
+    "category": "refund_cancellation",
+    "consecutive_clean_sends": 25,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": true,
+    "total_processed": 0,
+    "total_human_edits": 0,
+    "last_updated": "2026-10-19T03:46:32.865Z"
+  },
+  "complaint": {
+    "category": "complaint",
+    "consecutive_clean_sends": 0,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": true,
+    "total_processed": 0,
+    "total_human_edits": 0,
+    "last_updated": "2026-10-19T03:46:04.226Z"
+  },
+  "quote_request": {
+    "category": "quote_request",
+    "consecutive_clean_sends": 0,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": false,
+    "total_processed": 0,
+    "total_human_edits": 0,
+    "last_updated": "2026-10-19T03:46:04.226Z"
+  },
+  "follow_up": {
+    "category": "follow_up",
+    "consecutive_clean_sends": 0,
+    "is_auto_send_eligible": false,
+    "high_risk_locked": false,
+    "total_processed": 0,
+    "total_human_edits": 0,
+    "last_updated": "2026-10-19T03:46:04.226Z"
+  }
+}
